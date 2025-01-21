@@ -58,7 +58,7 @@ In this final step, we'll trigger the CI process by making a change to our GitHu
 - Sit back and relax while AWS CodePipeline takes care of the rest. It will fetch the latest code, trigger the build process with AWS CodeBuild, and deploy the application if you configured the deployment stage.
 
 ## Configure AWS CodeDeploy 
-- Create Ec2 instance and IAM role with CodeDeploy and EC2 permissions.
+- Create Ec2 instance and IAM role with CodeDeploy and EC2 permissions. Assign the IAM role to EC2 instance.
 - Install a CodeDeploy runner agent and docker on ec2 instance.
 - Add a tag to ec2 instance.
 - Create an application in CodeDeploy.
